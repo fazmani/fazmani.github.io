@@ -1,0 +1,20 @@
+function setup() {
+  createCanvas(600, 600);//area de dibuix de 600 px del 600 de cada costat
+}
+
+function draw() {
+  background(200);// fons de la pantalla, gris si té un número entre 0 I 255 zero es negre.i 255 es blanc. i qualsevol número entre 0 i 255 serà gris. Si tenim 3 números el primer número es vermellor o R (red), el segon número és la verdor o G de (green) i el tercer número és la blavor o B de blue. Els colors RGB permeten construir setze milions de col209, 13, 131ors diferents (255x255x255)
+  fill (209, 13, 131)
+  ellipse (300,300,200,250);//el primer número entre parèntesis és la posició x del centre de l'el·lipse, el tercer número és l'amplada i el quart número és l'alçada de l'el·lipse.
+  fill (13, 82, 209);//funciona com el background amb rgb
+  ellipse (250,250,50,30);// ELS DOS NÚMEROS PRIMERS ÉS EL CENTRE DE LA CARA
+   fill (13, 82, 209);//funciona com el background amb rgb
+  ellipse (350,250,50,30);//ull dret 
+  arc(300,350,120,40,0,PI);//funciona com l'el·lipse els primers quatre números i els dos ùltimss són 0,PI o PI,0
+triangle(300,300,330,360,310,320);
+
+  noFill();// no pintis el color de la cella 
+  //stroke(0)
+  arc(350,235,60,20,PI,0);//
+  line(220,230,265,220);
+}
